@@ -11,7 +11,7 @@ void Display(TIME *t1){
     int i=1;
     while(ptr!=NULL){
         printf("TIme stored in %dth variable : ",i++);
-        printf("%d : %d : %d (hours:minutes:seconds)\n",t1->hour,t1->minute,t1->second);
+        printf("%d : %d : %d (hours:minutes:seconds)\n",ptr->hour,ptr->minute,ptr->second);
         ptr=ptr->next;
     }
 }
