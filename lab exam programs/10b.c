@@ -7,8 +7,8 @@ int fibo(int n){
 int main(){
     int n;
     printf("Enter the number : ");
-    //scanf("%d",&n);
-    int fi=fibo(1000);
+    scanf("%d",&n);
+    int fi=fibo(n);
     printf("The fibinoci number at %dth pos is %d",n,fi);
     return 0;
 }
